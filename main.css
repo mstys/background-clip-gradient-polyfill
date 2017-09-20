@@ -1,0 +1,20 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(to bottom, #0091d2, #ffde14);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* fallback (IE doesn't supports blend modes) */
+    color: #0091d2;  
+}
