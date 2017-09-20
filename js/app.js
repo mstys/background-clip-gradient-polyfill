@@ -1,14 +1,15 @@
 var config = {
     'patternID' : 'custom-gradient',
     'gradient' : [{
-        "color": "#0091d2",
+        "color": "#fd071d",
         "offset": "0%"
         },{
-            "color": "#ffde14",
+            "color": "#eef94a",
             "offset": "100%"
         }
     ],
-    'class' : 'player-number',
+    'class' : 'example-header',
+    'vert' : 'true'
 };
 
 var element = document.querySelectorAll('.bg-clip-polyfill');

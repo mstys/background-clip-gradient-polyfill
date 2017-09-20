@@ -5,12 +5,14 @@ html, body {
 body {
     width: 100%;
     margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
 }
 
-h1 {
+.example-header {
+    width: 100%;
     font-size: 50px;
     text-align: center;
-    background: linear-gradient(to bottom, #0091d2, #ffde14);
+    background: linear-gradient(to bottom, #fd071d, #eef94a);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;

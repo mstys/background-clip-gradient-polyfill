@@ -120,6 +120,7 @@ Element.prototype.backgroundClipPolyfill = function () {
     
             svg.appendChild(linearGradient);
             svg.appendChild(text);
+            svg.setAttribute('class', a.class);
     
             return svg;
         };
@@ -128,7 +129,7 @@ Element.prototype.backgroundClipPolyfill = function () {
          * Replace the element if background-clip
          * is not available.
          */
-        if (hasBackgroundClip()) {
+        if (!hasBackgroundClip()) {
     
             var svg = createSVG({
                 'id': a.patternID,
